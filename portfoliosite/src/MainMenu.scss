@@ -1,0 +1,49 @@
+.MenuLayoutContainer{
+    display: grid;
+    background-color: black;
+    height: 3em;
+    
+
+    .Logo{
+        grid-column: 1;
+        height: 100%;
+        
+    }
+    
+    .MenuButtons{
+        grid-column: 2;
+        
+        .MenuButton{
+            height: 100%;
+            width: 25%;
+            color: white;
+            font-weight: bold;
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+        }
+        .MenuButton:hover{
+            background-image: linear-gradient(black ,#3a3a3a);
+            text-decoration: underline;
+        }
+    }
+    
+  
+    
+    .SocialMediaButtons{
+        grid-column: 3;
+        display: flex;
+        justify-content: right;
+        .SocialMediaButton{
+            height: 100%;
+            width: 25%;
+            background-color: black;
+            color: white;
+            border:none;
+        }
+        .SocialMediaButton:hover{
+            background-image: linear-gradient(black ,#3a3a3a);
+        }
+    }
+}
+

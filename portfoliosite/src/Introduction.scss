@@ -1,0 +1,48 @@
+@import './PublicStyles.scss';
+
+.IntroCard{
+    display: grid;
+    grid-template-columns: 15% 25% 20% 25% 10%;
+    grid-template-rows: 10% 80% 10%;
+    background-color: white;
+    height: 35%;
+    width: 100%;
+
+    .UserDescriptionCard{
+        grid-column: 2;
+        grid-row: 2;
+        height: 100%;
+        width: 100%;
+        box-shadow: 5px 5px 5px 2px rgb(211, 210, 210);
+        .UserDescription{
+            
+        }
+    }
+    
+    .ImageAndLabel{
+        grid-column: 4;
+        grid-row: 2;
+        height: 100%;
+        width: 100%;
+        box-shadow: 5px 5px 5px 2px rgb(211, 210, 210);
+        .UserImage{
+            margin: none;
+            padding: none;
+        }
+        .NameBar{
+            margin: none;
+            padding: none;
+        }
+        .TitleBar{
+            margin: none;
+            padding: none;
+        }
+    }
+
+
+
+
+
+
+
+}
