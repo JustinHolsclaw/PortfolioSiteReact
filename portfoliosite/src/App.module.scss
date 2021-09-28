@@ -1,0 +1,17 @@
+
+
+.AppContainer{
+    display: grid;
+    grid-template-rows: 10%, repeat(3, 33.3%);
+
+    .MainMenu{
+        grid-row: 1;
+    }
+    .Introduction{
+        grid-row: 2;
+    }
+    .Demonstration{
+        grid-row: 3;
+    }
+
+}

@@ -33,16 +33,7 @@
         grid-column: 3;
         display: flex;
         justify-content: right;
-        .SocialMediaButton{
-            height: 100%;
-            width: 25%;
-            background-color: black;
-            color: white;
-            border:none;
-        }
-        .SocialMediaButton:hover{
-            background-image: linear-gradient(black ,#3a3a3a);
-        }
+       
     }
 }
 

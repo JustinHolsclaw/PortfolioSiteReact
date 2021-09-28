@@ -1,9 +1,7 @@
-import Backend from './Backend';
+import BackEnd from './BackEnd';
 import Databases from './Databases';
 import FrontEnd from './FrontEnd';
 import style from './Styles/Demonstration.module.scss'
-
-
 
 function Demonstration (){
     
@@ -17,7 +15,7 @@ function Demonstration (){
             <FrontEnd/>
         </div>
         <div className={style.SkillBox3}>
-            <Backend/>
+            <BackEnd/>
         </div>
       </div>  
     );

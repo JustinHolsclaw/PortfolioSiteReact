@@ -1,4 +1,5 @@
 import style from './Styles/MainMenu.module.scss';
+import './Styles/MainMenu.scss';
 function MainMenu(){
     return(
         <div className={style.MenuLayoutContainer}>
