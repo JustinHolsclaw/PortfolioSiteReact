@@ -1,5 +1,6 @@
-import MainMenu from './MainMenu';
-import Introduction from './Introduction';
+import MainMenu from './MainMenu/MainMenu';
+import Introduction from './Introduction/Introduction';
+import Demonstration from './Demonstration/Demonstration'
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <MainMenu/>
       <Introduction/>
+      <Demonstration/>
     </div>
   );
 }
